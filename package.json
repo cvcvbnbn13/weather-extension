@@ -8,8 +8,6 @@
   },
   "author": "Fatty",
   "devDependencies": {
-    "@material-ui/core": "^4.11.3",
-    "@material-ui/icons": "^4.11.2",
     "@types/chrome": "^0.0.134",
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
@@ -28,5 +26,11 @@
     "webpack": "^5.35.1",
     "webpack-cli": "^4.6.0",
     "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/material": "^5.10.12"
   }
 }

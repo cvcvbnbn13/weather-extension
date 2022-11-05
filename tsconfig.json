@@ -3,6 +3,7 @@
     "jsx": "react",
     "module": "es6",
     "target": "es6",
+    "baseUrl": "./src",
     "moduleResolution": "node",
     "esModuleInterop": true
   }
