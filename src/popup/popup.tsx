@@ -128,7 +128,7 @@ const App: React.FC<{}> = () => {
             <Box py={'5px'}>
               <IconButton
                 onClick={handleSwitchToOverlay}
-                disabled={cities.length === 0 && !weatherOptions.homeCity}
+                disabled={!weatherOptions.homeCity}
               >
                 <PictureIcon />
               </IconButton>
